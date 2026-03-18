@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "406743820372",
+    "project_id": "jobconnect-12",
+    "storage_bucket": "jobconnect-12.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406743820372:android:86064f1698ebab23cc65c1",
+        "android_client_info": {
+          "package_name": "com.example.jobconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406743820372-h55g4j2r4665bsoif4bpgoib06s412ps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB36ZGkruaTApxaX3ERgdlHYYxLPMjVX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406743820372-h55g4j2r4665bsoif4bpgoib06s412ps.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "406743820372-97ap7d8ihamst3pgebcq3u7kaoa127eq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.jobconnect",
+                "app_store_id": "13542678"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

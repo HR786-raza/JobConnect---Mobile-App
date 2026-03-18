@@ -1,0 +1,7 @@
+Text(
+  'Bold Text',
+  style: TextStyle(
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.bold, // weight 700
+  ),
+)

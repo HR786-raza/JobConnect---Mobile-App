@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>JobConnect</title>
+  
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js"></script>
+  
+  <script>
+    // Your web app's Firebase configuration
+    // REPLACE WITH YOUR ACTUAL FIREBASE CONFIGURATION
+    const firebaseConfig = {
+      apiKey: "AIzaSyDgZLmq3iKO6T-H0XRb3NYFgRail7KXyTI",
+      authDomain: "jobconnect-12.firebaseapp.com",
+      projectId: "jobconnect-12",
+      storageBucket: "jobconnect-12.firebasestorage.app",
+      messagingSenderId: "406743820372",
+      appId: "1:406743820372:web:609254f42027bec3cc65c1",
+      measurementId: "G-1FPEYYKJRR"
+    };
+    
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    
+    // Initialize Firebase Analytics if available
+    if (firebase.analytics) {
+      firebase.analytics();
+    }
+  </script>
+  
+  <!-- IMPORTANT: Service Worker Registration - Separate script tag -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('firebase-messaging-sw.js', {
+          scope: '/firebase-cloud-messaging-push-scope',
+        }).then(function(registration) {
+          console.log('Firebase Messaging Service Worker registered with scope:', registration.scope);
+        }).catch(function(err) {
+          console.error('Firebase Messaging Service Worker registration failed:', err);
+        });
+      });
+    }
+  </script>
+</head>
+<body>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

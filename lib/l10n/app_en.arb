@@ -1,0 +1,977 @@
+{
+  "@@locale": "en",
+  "@@last_modified": "2024-01-15",
+
+  "app_name": "JobConnect",
+  "@app_name": {
+    "description": "The name of the application"
+  },
+
+  "app_tagline": "Smart Job Portal with AI-Based Search & Filtering",
+  "@app_tagline": {
+    "description": "Tagline for the application"
+  },
+
+  "version": "Version 1.0.0",
+  "@version": {
+    "description": "App version text"
+  },
+
+  "ok": "OK",
+  "@ok": {
+    "description": "OK button text"
+  },
+
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Cancel button text"
+  },
+
+  "save": "Save",
+  "@save": {
+    "description": "Save button text"
+  },
+
+  "delete": "Delete",
+  "@delete": {
+    "description": "Delete button text"
+  },
+
+  "edit": "Edit",
+  "@edit": {
+    "description": "Edit button text"
+  },
+
+  "next": "Next",
+  "@next": {
+    "description": "Next button text"
+  },
+
+  "back": "Back",
+  "@back": {
+    "description": "Back button text"
+  },
+
+  "skip": "Skip",
+  "@skip": {
+    "description": "Skip button text"
+  },
+
+  "done": "Done",
+  "@done": {
+    "description": "Done button text"
+  },
+
+  "confirm": "Confirm",
+  "@confirm": {
+    "description": "Confirm button text"
+  },
+
+  "retry": "Retry",
+  "@retry": {
+    "description": "Retry button text"
+  },
+
+  "loading": "Loading...",
+  "@loading": {
+    "description": "Loading text"
+  },
+
+  "error": "Error",
+  "@error": {
+    "description": "Error title"
+  },
+
+  "success": "Success",
+  "@success": {
+    "description": "Success title"
+  },
+
+  "warning": "Warning",
+  "@warning": {
+    "description": "Warning title"
+  },
+
+  "info": "Information",
+  "@info": {
+    "description": "Information title"
+  },
+
+  "network_error": "Network error. Please check your connection.",
+  "@network_error": {
+    "description": "Network error message"
+  },
+
+  "server_error": "Server error. Please try again later.",
+  "@server_error": {
+    "description": "Server error message"
+  },
+
+  "unknown_error": "An unknown error occurred. Please try again.",
+  "@unknown_error": {
+    "description": "Unknown error message"
+  },
+
+  "no_internet": "No internet connection",
+  "@no_internet": {
+    "description": "No internet connection message"
+  },
+
+  "retry_connection": "Retry Connection",
+  "@retry_connection": {
+    "description": "Retry connection button"
+  },
+
+  "welcome": "Welcome",
+  "@welcome": {
+    "description": "Welcome text"
+  },
+
+  "sign_in": "Sign In",
+  "@sign_in": {
+    "description": "Sign in button text"
+  },
+
+  "sign_out": "Sign Out",
+  "@sign_out": {
+    "description": "Sign out button text"
+  },
+
+  "sign_up": "Sign Up",
+  "@sign_up": {
+    "description": "Sign up button text"
+  },
+
+  "register": "Register",
+  "@register": {
+    "description": "Register button text"
+  },
+
+  "email": "Email",
+  "@email": {
+    "description": "Email field label"
+  },
+
+  "password": "Password",
+  "@password": {
+    "description": "Password field label"
+  },
+
+  "confirm_password": "Confirm Password",
+  "@confirm_password": {
+    "description": "Confirm password field label"
+  },
+
+  "forgot_password": "Forgot Password?",
+  "@forgot_password": {
+    "description": "Forgot password link"
+  },
+
+  "reset_password": "Reset Password",
+  "@reset_password": {
+    "description": "Reset password button"
+  },
+
+  "create_account": "Create Account",
+  "@create_account": {
+    "description": "Create account button"
+  },
+
+  "already_have_account": "Already have an account?",
+  "@already_have_account": {
+    "description": "Already have account text"
+  },
+
+  "dont_have_account": "Don't have an account?",
+  "@dont_have_account": {
+    "description": "Don't have account text"
+  },
+
+  "continue_with_google": "Continue with Google",
+  "@continue_with_google": {
+    "description": "Google sign in button"
+  },
+
+  "continue_with_facebook": "Continue with Facebook",
+  "@continue_with_facebook": {
+    "description": "Facebook sign in button"
+  },
+
+  "continue_with_apple": "Continue with Apple",
+  "@continue_with_apple": {
+    "description": "Apple sign in button"
+  },
+
+  "or": "OR",
+  "@or": {
+    "description": "OR separator"
+  },
+
+  "terms_and_privacy": "By continuing, you agree to our Terms of Service and Privacy Policy",
+  "@terms_and_privacy": {
+    "description": "Terms and privacy text"
+  },
+
+  "select_user_type": "Select Your Role",
+  "@select_user_type": {
+    "description": "User type selection title"
+  },
+
+  "job_seeker": "Job Seeker",
+  "@job_seeker": {
+    "description": "Job seeker role"
+  },
+
+  "employer": "Employer",
+  "@employer": {
+    "description": "Employer role"
+  },
+
+  "find_job": "Find a Job",
+  "@find_job": {
+    "description": "Find job button"
+  },
+
+  "post_job": "Post a Job",
+  "@post_job": {
+    "description": "Post job button"
+  },
+
+  "search_jobs": "Search Jobs",
+  "@search_jobs": {
+    "description": "Search jobs title"
+  },
+
+  "search": "Search",
+  "@search": {
+    "description": "Search button"
+  },
+
+  "filter": "Filter",
+  "@filter": {
+    "description": "Filter button"
+  },
+
+  "clear_filters": "Clear Filters",
+  "@clear_filters": {
+    "description": "Clear filters button"
+  },
+
+  "apply_filters": "Apply Filters",
+  "@apply_filters": {
+    "description": "Apply filters button"
+  },
+
+  "location": "Location",
+  "@location": {
+    "description": "Location field"
+  },
+
+  "salary": "Salary",
+  "@salary": {
+    "description": "Salary field"
+  },
+
+  "job_type": "Job Type",
+  "@job_type": {
+    "description": "Job type field"
+  },
+
+  "experience_level": "Experience Level",
+  "@experience_level": {
+    "description": "Experience level field"
+  },
+
+  "full_time": "Full Time",
+  "@full_time": {
+    "description": "Full time job type"
+  },
+
+  "part_time": "Part Time",
+  "@part_time": {
+    "description": "Part time job type"
+  },
+
+  "internship": "Internship",
+  "@internship": {
+    "description": "Internship job type"
+  },
+
+  "contract": "Contract",
+  "@contract": {
+    "description": "Contract job type"
+  },
+
+  "freelance": "Freelance",
+  "@freelance": {
+    "description": "Freelance job type"
+  },
+
+  "remote": "Remote",
+  "@remote": {
+    "description": "Remote job type"
+  },
+
+  "entry_level": "Entry Level",
+  "@entry_level": {
+    "description": "Entry level experience"
+  },
+
+  "mid_level": "Mid Level",
+  "@mid_level": {
+    "description": "Mid level experience"
+  },
+
+  "senior_level": "Senior Level",
+  "@senior_level": {
+    "description": "Senior level experience"
+  },
+
+  "lead": "Lead",
+  "@lead": {
+    "description": "Lead experience"
+  },
+
+  "manager": "Manager",
+  "@manager": {
+    "description": "Manager experience"
+  },
+
+  "job_title": "Job Title",
+  "@job_title": {
+    "description": "Job title field"
+  },
+
+  "company": "Company",
+  "@company": {
+    "description": "Company name"
+  },
+
+  "description": "Description",
+  "@description": {
+    "description": "Description field"
+  },
+
+  "requirements": "Requirements",
+  "@requirements": {
+    "description": "Requirements field"
+  },
+
+  "responsibilities": "Responsibilities",
+  "@responsibilities": {
+    "description": "Responsibilities field"
+  },
+
+  "skills": "Skills",
+  "@skills": {
+    "description": "Skills field"
+  },
+
+  "benefits": "Benefits",
+  "@benefits": {
+    "description": "Benefits field"
+  },
+
+  "about": "About",
+  "@about": {
+    "description": "About section"
+  },
+
+  "contact": "Contact",
+  "@contact": {
+    "description": "Contact section"
+  },
+
+  "profile": "Profile",
+  "@profile": {
+    "description": "Profile screen title"
+  },
+
+  "edit_profile": "Edit Profile",
+  "@edit_profile": {
+    "description": "Edit profile title"
+  },
+
+  "full_name": "Full Name",
+  "@full_name": {
+    "description": "Full name field"
+  },
+
+  "phone_number": "Phone Number",
+  "@phone_number": {
+    "description": "Phone number field"
+  },
+
+  "bio": "Bio",
+  "@bio": {
+    "description": "Bio field"
+  },
+
+  "interests": "Interests",
+  "@interests": {
+    "description": "Interests field"
+  },
+
+  "current_status": "Current Situation",
+  "@current_status": {
+    "description": "Current status field"
+  },
+
+  "student": "Student",
+  "@student": {
+    "description": "Student status"
+  },
+
+  "fresh_graduate": "Fresh Graduate",
+  "@fresh_graduate": {
+    "description": "Fresh graduate status"
+  },
+
+  "job_seeker_status": "Job Seeker",
+  "@job_seeker_status": {
+    "description": "Job seeker status"
+  },
+
+  "working_professional": "Working Professional",
+  "@working_professional": {
+    "description": "Working professional status"
+  },
+
+  "resume": "Resume",
+  "@resume": {
+    "description": "Resume title"
+  },
+
+  "build_resume": "Build Resume",
+  "@build_resume": {
+    "description": "Build resume button"
+  },
+
+  "personal_info": "Personal Information",
+  "@personal_info": {
+    "description": "Personal info section"
+  },
+
+  "education": "Education",
+  "@education": {
+    "description": "Education section"
+  },
+
+  "experience": "Experience",
+  "@experience": {
+    "description": "Experience section"
+  },
+
+  "projects": "Projects",
+  "@projects": {
+    "description": "Projects section"
+  },
+
+  "languages": "Languages",
+  "@languages": {
+    "description": "Languages section"
+  },
+
+  "certifications": "Certifications",
+  "@certifications": {
+    "description": "Certifications section"
+  },
+
+  "add": "Add",
+  "@add": {
+    "description": "Add button"
+  },
+
+  "remove": "Remove",
+  "@remove": {
+    "description": "Remove button"
+  },
+
+  "upload": "Upload",
+  "@upload": {
+    "description": "Upload button"
+  },
+
+  "download": "Download",
+  "@download": {
+    "description": "Download button"
+  },
+
+  "share": "Share",
+  "@share": {
+    "description": "Share button"
+  },
+
+  "apply": "Apply",
+  "@apply": {
+    "description": "Apply button"
+  },
+
+  "save_job": "Save Job",
+  "@save_job": {
+    "description": "Save job button"
+  },
+
+  "unsave_job": "Unsave Job",
+  "@unsave_job": {
+    "description": "Unsave job button"
+  },
+
+  "applied": "Applied",
+  "@applied": {
+    "description": "Applied status"
+  },
+
+  "saved": "Saved",
+  "@saved": {
+    "description": "Saved status"
+  },
+
+  "view_all": "View All",
+  "@view_all": {
+    "description": "View all link"
+  },
+
+  "see_all": "See All",
+  "@see_all": {
+    "description": "See all link"
+  },
+
+  "show_more": "Show More",
+  "@show_more": {
+    "description": "Show more link"
+  },
+
+  "show_less": "Show Less",
+  "@show_less": {
+    "description": "Show less link"
+  },
+
+  "no_results": "No results found",
+  "@no_results": {
+    "description": "No results message"
+  },
+
+  "no_jobs": "No jobs found",
+  "@no_jobs": {
+    "description": "No jobs message"
+  },
+
+  "no_applications": "No applications yet",
+  "@no_applications": {
+    "description": "No applications message"
+  },
+
+  "no_messages": "No messages",
+  "@no_messages": {
+    "description": "No messages message"
+  },
+
+  "no_notifications": "No notifications",
+  "@no_notifications": {
+    "description": "No notifications message"
+  },
+
+  "no_saved_jobs": "No saved jobs",
+  "@no_saved_jobs": {
+    "description": "No saved jobs message"
+  },
+
+  "start_searching": "Start searching for your dream job",
+  "@start_searching": {
+    "description": "Start searching message"
+  },
+
+  "featured_jobs": "Featured Jobs",
+  "@featured_jobs": {
+    "description": "Featured jobs section"
+  },
+
+  "recommended_jobs": "Recommended for You",
+  "@recommended_jobs": {
+    "description": "Recommended jobs section"
+  },
+
+  "recent_jobs": "Recent Jobs",
+  "@recent_jobs": {
+    "description": "Recent jobs section"
+  },
+
+  "job_alerts": "Job Alerts",
+  "@job_alerts": {
+    "description": "Job alerts title"
+  },
+
+  "create_alert": "Create Alert",
+  "@create_alert": {
+    "description": "Create alert button"
+  },
+
+  "alert_name": "Alert Name",
+  "@alert_name": {
+    "description": "Alert name field"
+  },
+
+  "frequency": "Frequency",
+  "@frequency": {
+    "description": "Frequency field"
+  },
+
+  "daily": "Daily",
+  "@daily": {
+    "description": "Daily frequency"
+  },
+
+  "weekly": "Weekly",
+  "@weekly": {
+    "description": "Weekly frequency"
+  },
+
+  "instant": "Instant",
+  "@instant": {
+    "description": "Instant frequency"
+  },
+
+  "notifications": "Notifications",
+  "@notifications": {
+    "description": "Notifications title"
+  },
+
+  "enable_notifications": "Enable Notifications",
+  "@enable_notifications": {
+    "description": "Enable notifications button"
+  },
+
+  "mark_all_read": "Mark all as read",
+  "@mark_all_read": {
+    "description": "Mark all read button"
+  },
+
+  "chat": "Chat",
+  "@chat": {
+    "description": "Chat title"
+  },
+
+  "type_message": "Type a message...",
+  "@type_message": {
+    "description": "Type message hint"
+  },
+
+  "send": "Send",
+  "@send": {
+    "description": "Send button"
+  },
+
+  "ai_assistant": "AI Assistant",
+  "@ai_assistant": {
+    "description": "AI assistant name"
+  },
+
+  "interview_prep": "Interview Preparation",
+  "@interview_prep": {
+    "description": "Interview prep title"
+  },
+
+  "start_interview": "Start Interview",
+  "@start_interview": {
+    "description": "Start interview button"
+  },
+
+  "practice": "Practice",
+  "@practice": {
+    "description": "Practice tab"
+  },
+
+  "questions": "Questions",
+  "@questions": {
+    "description": "Questions tab"
+  },
+
+  "tips": "Tips",
+  "@tips": {
+    "description": "Tips tab"
+  },
+
+  "skills_assessment": "Skills Assessment",
+  "@skills_assessment": {
+    "description": "Skills assessment title"
+  },
+
+  "take_assessment": "Take Assessment",
+  "@take_assessment": {
+    "description": "Take assessment button"
+  },
+
+  "your_level": "Your Level",
+  "@your_level": {
+    "description": "Your level text"
+  },
+
+  "beginner": "Beginner",
+  "@beginner": {
+    "description": "Beginner level"
+  },
+
+  "intermediate": "Intermediate",
+  "@intermediate": {
+    "description": "Intermediate level"
+  },
+
+  "advanced": "Advanced",
+  "@advanced": {
+    "description": "Advanced level"
+  },
+
+  "expert": "Expert",
+  "@expert": {
+    "description": "Expert level"
+  },
+
+  "score": "Score",
+  "@score": {
+    "description": "Score text"
+  },
+
+  "match_percentage": "Match Percentage",
+  "@match_percentage": {
+    "description": "Match percentage text"
+  },
+
+  "ats_score": "ATS Score",
+  "@ats_score": {
+    "description": "ATS score text"
+  },
+
+  "resume_analysis": "Resume Analysis",
+  "@resume_analysis": {
+    "description": "Resume analysis title"
+  },
+
+  "suggestions": "Suggestions",
+  "@suggestions": {
+    "description": "Suggestions title"
+  },
+
+  "missing_keywords": "Missing Keywords",
+  "@missing_keywords": {
+    "description": "Missing keywords title"
+  },
+
+  "dark_mode": "Dark Mode",
+  "@dark_mode": {
+    "description": "Dark mode setting"
+  },
+
+  "language": "Language",
+  "@language": {
+    "description": "Language setting"
+  },
+
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings title"
+  },
+
+  "help_support": "Help & Support",
+  "@help_support": {
+    "description": "Help and support"
+  },
+
+  "privacy_policy": "Privacy Policy",
+  "@privacy_policy": {
+    "description": "Privacy policy"
+  },
+
+  "terms_of_service": "Terms of Service",
+  "@terms_of_service": {
+    "description": "Terms of service"
+  },
+
+  "logout_confirmation": "Are you sure you want to sign out?",
+  "@logout_confirmation": {
+    "description": "Logout confirmation message"
+  },
+
+  "delete_confirmation": "Are you sure you want to delete this item?",
+  "@delete_confirmation": {
+    "description": "Delete confirmation message"
+  },
+
+  "unsaved_changes": "You have unsaved changes. Discard them?",
+  "@unsaved_changes": {
+    "description": "Unsaved changes warning"
+  },
+
+  "permission_required": "Permission Required",
+  "@permission_required": {
+    "description": "Permission required title"
+  },
+
+  "camera_permission": "Camera permission is required to take photos",
+  "@camera_permission": {
+    "description": "Camera permission message"
+  },
+
+  "gallery_permission": "Gallery permission is required to select photos",
+  "@gallery_permission": {
+    "description": "Gallery permission message"
+  },
+
+  "notification_permission": "Notification permission is required to receive job alerts",
+  "@notification_permission": {
+    "description": "Notification permission message"
+  },
+
+  "open_settings": "Open Settings",
+  "@open_settings": {
+    "description": "Open settings button"
+  },
+
+  "not_now": "Not Now",
+  "@not_now": {
+    "description": "Not now button"
+  },
+
+  "allow": "Allow",
+  "@allow": {
+    "description": "Allow button"
+  },
+
+  "deny": "Deny",
+  "@deny": {
+    "description": "Deny button"
+  },
+
+  "today": "Today",
+  "@today": {
+    "description": "Today"
+  },
+
+  "yesterday": "Yesterday",
+  "@yesterday": {
+    "description": "Yesterday"
+  },
+
+  "days_ago": "{days} days ago",
+  "@days_ago": {
+    "description": "Days ago format",
+    "placeholders": {
+      "days": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+
+  "hours_ago": "{hours} hours ago",
+  "@hours_ago": {
+    "description": "Hours ago format",
+    "placeholders": {
+      "hours": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+
+  "minutes_ago": "{minutes} minutes ago",
+  "@minutes_ago": {
+    "description": "Minutes ago format",
+    "placeholders": {
+      "minutes": {
+        "type": "int",
+        "example": "10"
+      }
+    }
+  },
+
+  "just_now": "Just now",
+  "@just_now": {
+    "description": "Just now"
+  },
+
+  "applicants": "{count} applicants",
+  "@applicants": {
+    "description": "Applicants count",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "24"
+      }
+    }
+  },
+
+  "saved_count": "{count} saved",
+  "@saved_count": {
+    "description": "Saved count",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+
+  "applications_count": "{count} applications",
+  "@applications_count": {
+    "description": "Applications count",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+
+  "matches_found": "{count} matches found",
+  "@matches_found": {
+    "description": "Matches found",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "15"
+      }
+    }
+  },
+
+  "salary_range": "{min} - {max}",
+  "@salary_range": {
+    "description": "Salary range format",
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "\\$50k"
+      },
+      "max": {
+        "type": "String",
+        "example": "\\$80k"
+      }
+    }
+  },
+
+  "greeting_morning": "Good Morning",
+  "@greeting_morning": {
+    "description": "Morning greeting"
+  },
+
+  "greeting_afternoon": "Good Afternoon",
+  "@greeting_afternoon": {
+    "description": "Afternoon greeting"
+  },
+
+  "greeting_evening": "Good Evening",
+  "@greeting_evening": {
+    "description": "Evening greeting"
+  },
+
+  "hello_user": "Hello {name}",
+  "@hello_user": {
+    "description": "Hello with user name",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Hassan"
+      }
+    }
+  }
+}

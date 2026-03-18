@@ -1,0 +1,7 @@
+Text(
+  'Regular Text',
+  style: TextStyle(
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.normal,
+  ),
+),
